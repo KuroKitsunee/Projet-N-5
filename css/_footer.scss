@@ -1,0 +1,22 @@
+.section-footer {
+    background-image: url(../media/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    .container {
+        text-align: center;
+
+        p {
+            font-family: 'Rubik', sans-serif;
+            color: #FFBE05;
+        }
+
+        img {
+            width: 20%;
+            color: #FFBE05;
+        }
+    }
+}

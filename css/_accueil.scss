@@ -1,0 +1,23 @@
+.section-accueil {
+    background-image: url(../media/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+    .container {
+        text-align: center;
+    
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Anton', sans-serif;
+            font-size: 700%;
+            padding-top: 2%;
+            color: #FFBE05;
+        }
+
+        .logo {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.section-liens {
+    background-image: url(../media/cover-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 1%;
+
+    .convecteur {
+        background-color: rgba(0, 0, 0, 0.600);
+        border-radius: 10%;
+    }
+
+    .staff {
+        background-color: rgba(0, 0, 0, 0.600);
+        border-radius: 10%;
+    }
+
+    .voiture {
+        background-color: rgba(0, 0, 0, 0.600);
+        border-radius: 10%;
+    }
+
+    .coulisse {
+        background-color: rgba(0, 0, 0, 0.600);
+        border-radius: 10%;
+    }
+
+    img {
+        border-radius: 10%;
+    }
+
+    .btn {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        display: inline-block;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 1s, color 1s, border 1s;
+        background-color: #FFBE05;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        margin-right: 15px;
+    }
+
+    .btn:hover {
+        background-color: #FF0E14;
+        color: black;
+    }
+
+    h2 {
+        color: #FFBE05;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 240%;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgba(0, 0, 0, 0.600);
+    }
+}

@@ -1,0 +1,398 @@
+.section-accueil {
+  background-image: url(../media/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+.section-accueil .container {
+  text-align: center;
+}
+.section-accueil .container h1 {
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-size: 700%;
+  padding-top: 2%;
+  color: #FFBE05;
+}
+.section-accueil .container .logo {
+  width: 100%;
+}
+
+/*.section-nav {
+    text-align: center;
+}*/
+.nav {
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  text-align: center;
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  color: #FFCC01;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: #FF0E14;
+  transition-duration: 1s;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #FFCC01;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    color: #FFCC01;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+.section-welcome {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+.section-welcome .cover-1 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url(../media/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section-welcome p {
+  padding-top: 4%;
+  margin-bottom: 6%;
+  color: white;
+}
+.section-welcome .logo-wel {
+  width: 50%;
+}
+.section-welcome .banner-film {
+  width: 100%;
+  height: 2%;
+}
+
+.section-film .container {
+  text-align: center;
+}
+.section-film .container .banner-film {
+  width: 100%;
+  height: 2%;
+}
+.section-film .container .logo-syn {
+  text-align: center;
+  width: 40%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.section-film .container .film-text h4 {
+  color: white;
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.section-film .container .film-text p {
+  color: white;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+.section-film .container .film-text iframe {
+  padding-bottom: 20%;
+}
+
+.section-liens {
+  background-image: url(../media/cover-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 1%;
+}
+.section-liens .convecteur {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10%;
+}
+.section-liens .staff {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10%;
+}
+.section-liens .voiture {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10%;
+}
+.section-liens .coulisse {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10%;
+}
+.section-liens img {
+  border-radius: 10%;
+}
+.section-liens .btn {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 1s, color 1s, border 1s;
+  background-color: #FFBE05;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  margin-right: 15px;
+}
+.section-liens .btn:hover {
+  background-color: #FF0E14;
+  color: black;
+}
+.section-liens h2 {
+  color: #FFBE05;
+  font-family: "Montserrat", sans-serif;
+  font-size: 240%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-footer {
+  background-image: url(../media/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.section-footer .container {
+  text-align: center;
+}
+.section-footer .container p {
+  font-family: "Rubik", sans-serif;
+  color: #FFBE05;
+}
+.section-footer .container img {
+  width: 20%;
+  color: #FFBE05;
+}
+
+.section-delorean {
+  background-image: url(../media/Delorean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.section-delorean h2 {
+  color: #FFBE05;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-presentation {
+  text-align: center;
+}
+.section-presentation .container .avant {
+  margin-top: 5%;
+}
+.section-presentation .container .banner-film {
+  width: 100%;
+  height: 2%;
+  margin-top: 5%;
+}
+.section-presentation .container img {
+  width: 100%;
+}
+.section-presentation .container p {
+  color: white;
+  text-align: left;
+  margin-bottom: 4%;
+}
+.section-presentation .container h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: "Anton", sans-serif;
+}
+
+.section-cast .container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.section-cast .container p {
+  color: white;
+  margin-bottom: 10%;
+  padding-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  font-weight: 400;
+}
+.section-cast .container .img-cast {
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+.banner-film {
+  width: 100%;
+  height: 2%;
+}
+
+.intro-cast {
+  background-image: url(../media/Cast/cast-font.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.intro-cast h2 {
+  color: #FFBE05;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-coulisse {
+  background-image: url(../media/Behind_the_scene/font.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.section-coulisse .top {
+  margin-top: 4%;
+}
+.section-coulisse h2 {
+  color: #FFBE05;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-coulisse-list .img-coulisse {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10%;
+  margin-top: 15%;
+}
+
+/* Easter Egg */
+#background-video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  #background-video {
+    display: none;
+  }
+}
+body {
+  background-color: #1c1c1c;
+}/*# sourceMappingURL=styles.css.map */
